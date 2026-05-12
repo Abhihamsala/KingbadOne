@@ -1,0 +1,155 @@
+[1765047685.930][INFO]: Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 2577
+[1765047685.930][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1765047685.933][INFO]: ChromeDriver was started successfully on port 2577
+[1765047686.018][INFO]: [3a882b2315b213995d1c80c52d403744] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         }
+      } ]
+   }
+}
+[1765047686.019][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1765047686.019][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1765047686.020][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1765047686.020][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1765047686.021][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-features=IgnoreDuplicateNavs,Prewarm --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\bharg\AppData\Local\Temp\scoped_dir44932_1205716561" data:,
+[1765047686.546][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1765047686.552][INFO]: [3a882b2315b213995d1c80c52d403744] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "142.0.7444.176",
+      "chrome": {
+         "chromedriverVersion": "142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749})",
+         "userDataDir": "C:\\Users\\bharg\\AppData\\Local\\Temp\\scoped_dir44932_1205716561"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52956"
+      },
+      "goog:processID": 30464,
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "~~~": "..."
+   },
+   "sessionId": "3a882b2315b213995d1c80c52d403744"
+}
+[1765047686.662][INFO]: [3a882b2315b213995d1c80c52d403744] COMMAND Navigate {
+   "url": "https://semantic-ui.com/modules/dropdown.html"
+}
+[1765047686.662][INFO]: Waiting for pending navigations...
+[1765047686.667][INFO]: Done waiting for pending navigations. Status: ok
+[1765047687.934][INFO]: Waiting for pending navigations...
+[1765047689.186][INFO]: Done waiting for pending navigations. Status: ok
+[1765047689.186][INFO]: [3a882b2315b213995d1c80c52d403744] RESPONSE Navigate
+[1765047694.208][INFO]: [3a882b2315b213995d1c80c52d403744] COMMAND FindElement {
+   "using": "xpath",
+   "value": "(//div[text()='Gender'])[1]/following::div[3]"
+}
+[1765047694.212][INFO]: Waiting for pending navigations...
+[1765047694.215][INFO]: Done waiting for pending navigations. Status: ok
+[1765047694.227][INFO]: Waiting for pending navigations...
+[1765047694.228][INFO]: Done waiting for pending navigations. Status: ok
+[1765047694.228][INFO]: [3a882b2315b213995d1c80c52d403744] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.BEA6B36BA6D1B816ABF963CBFCA213A1.d.52EE02FF8FA99DEF380D72644D7F56E1.e.970"
+}
+[1765047694.237][INFO]: [3a882b2315b213995d1c80c52d403744] COMMAND GetElementText {
+   "id": "f.BEA6B36BA6D1B816ABF963CBFCA213A1.d.52EE02FF8FA99DEF380D72644D7F56E1.e.970"
+}
+[1765047694.237][INFO]: Waiting for pending navigations...
+[1765047694.238][INFO]: Done waiting for pending navigations. Status: ok
+[1765047694.248][INFO]: Waiting for pending navigations...
+[1765047694.249][INFO]: Done waiting for pending navigations. Status: ok
+[1765047694.249][INFO]: [3a882b2315b213995d1c80c52d403744] RESPONSE GetElementText ""
+[1765047699.268][INFO]: [3a882b2315b213995d1c80c52d403744] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.BEA6B36BA6D1B816ABF963CBFCA213A1.d.52EE02FF8FA99DEF380D72644D7F56E1.e.970"
+   } ],
+   "script": "return(arguments[0].textContent);"
+}
+[1765047699.268][INFO]: Waiting for pending navigations...
+[1765047699.271][INFO]: Done waiting for pending navigations. Status: ok
+[1765047699.280][INFO]: Waiting for pending navigations...
+[1765047699.281][INFO]: Done waiting for pending navigations. Status: ok
+[1765047699.281][INFO]: [3a882b2315b213995d1c80c52d403744] RESPONSE ExecuteScript "Female"

@@ -1,0 +1,386 @@
+[1768442258.202][INFO]: Starting ChromeDriver 143.0.7499.192 (be2c1f4fd451578a9ada68a0ac12d659362b44bf-refs/branch-heads/7499@{#4083}) on port 13929
+[1768442258.202][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1768442258.207][INFO]: ChromeDriver was started successfully on port 13929
+[1768442258.330][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         }
+      } ]
+   }
+}
+[1768442258.332][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1768442258.332][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1768442258.332][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1768442258.332][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1768442258.333][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-features=IgnoreDuplicateNavs,Prewarm --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\bharg\AppData\Local\Temp\scoped_dir20224_595039614" data:,
+[1768442258.845][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1768442258.852][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "143.0.7499.193",
+      "chrome": {
+         "chromedriverVersion": "143.0.7499.192 (be2c1f4fd451578a9ada68a0ac12d659362b44bf-refs/branch-heads/7499@{#4083})",
+         "userDataDir": "C:\\Users\\bharg\\AppData\\Local\\Temp\\scoped_dir20224_595039614"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51494"
+      },
+      "goog:processID": 17336,
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "~~~": "..."
+   },
+   "sessionId": "0b1f5a11063f9c6f25c9c20405d943ff"
+}
+[1768442259.043][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND Navigate {
+   "url": "https://www.espncricinfo.com/series/england-in-india-2023-24-1389386/india-vs-england-2nd-test-1389400/full-scorecard"
+}
+[1768442259.043][INFO]: Waiting for pending navigations...
+[1768442259.046][INFO]: Done waiting for pending navigations. Status: ok
+[1768442260.693][INFO]: Waiting for pending navigations...
+[1768442284.229][INFO]: Done waiting for pending navigations. Status: ok
+[1768442284.229][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE Navigate
+[1768442289.241][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442289.250][INFO]: Waiting for pending navigations...
+[1768442289.254][INFO]: Done waiting for pending navigations. Status: ok
+[1768442289.286][INFO]: Waiting for pending navigations...
+[1768442289.291][INFO]: Done waiting for pending navigations. Status: ok
+[1768442289.291][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442290.298][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442290.512][INFO]: Waiting for pending navigations...
+[1768442290.522][INFO]: Done waiting for pending navigations. Status: ok
+[1768442290.533][INFO]: Waiting for pending navigations...
+[1768442290.535][INFO]: Done waiting for pending navigations. Status: ok
+[1768442290.535][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442291.543][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442291.549][INFO]: Waiting for pending navigations...
+[1768442292.104][INFO]: Done waiting for pending navigations. Status: ok
+[1768442292.231][INFO]: Waiting for pending navigations...
+[1768442292.586][INFO]: Done waiting for pending navigations. Status: ok
+[1768442292.586][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442293.593][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442293.611][INFO]: Waiting for pending navigations...
+[1768442293.613][INFO]: Done waiting for pending navigations. Status: ok
+[1768442293.629][INFO]: Waiting for pending navigations...
+[1768442293.631][INFO]: Done waiting for pending navigations. Status: ok
+[1768442293.631][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442294.646][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442294.675][INFO]: Waiting for pending navigations...
+[1768442294.714][INFO]: Done waiting for pending navigations. Status: ok
+[1768442294.733][INFO]: Waiting for pending navigations...
+[1768442294.736][INFO]: Done waiting for pending navigations. Status: ok
+[1768442294.736][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442295.743][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442295.790][INFO]: Waiting for pending navigations...
+[1768442295.792][INFO]: Done waiting for pending navigations. Status: ok
+[1768442295.802][INFO]: Waiting for pending navigations...
+[1768442295.802][INFO]: Done waiting for pending navigations. Status: ok
+[1768442295.802][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442296.818][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442296.820][INFO]: Waiting for pending navigations...
+[1768442296.823][INFO]: Done waiting for pending navigations. Status: ok
+[1768442296.828][INFO]: Waiting for pending navigations...
+[1768442296.828][INFO]: Done waiting for pending navigations. Status: ok
+[1768442296.828][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442297.845][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442297.945][INFO]: Waiting for pending navigations...
+[1768442298.012][INFO]: Done waiting for pending navigations. Status: ok
+[1768442298.022][INFO]: Waiting for pending navigations...
+[1768442298.023][INFO]: Done waiting for pending navigations. Status: ok
+[1768442298.023][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442299.061][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442299.546][INFO]: Waiting for pending navigations...
+[1768442299.556][INFO]: Done waiting for pending navigations. Status: ok
+[1768442299.654][INFO]: Waiting for pending navigations...
+[1768442299.658][INFO]: Done waiting for pending navigations. Status: ok
+[1768442299.658][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442300.680][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442300.686][INFO]: Waiting for pending navigations...
+[1768442300.745][INFO]: Done waiting for pending navigations. Status: ok
+[1768442300.755][INFO]: Waiting for pending navigations...
+[1768442300.755][INFO]: Done waiting for pending navigations. Status: ok
+[1768442300.755][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442301.765][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442301.765][INFO]: Waiting for pending navigations...
+[1768442301.767][INFO]: Done waiting for pending navigations. Status: ok
+[1768442301.777][INFO]: Waiting for pending navigations...
+[1768442301.778][INFO]: Done waiting for pending navigations. Status: ok
+[1768442301.779][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442302.797][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442302.797][INFO]: Waiting for pending navigations...
+[1768442302.797][INFO]: Done waiting for pending navigations. Status: ok
+[1768442302.803][INFO]: Waiting for pending navigations...
+[1768442302.803][INFO]: Done waiting for pending navigations. Status: ok
+[1768442302.803][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442303.819][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442303.819][INFO]: Waiting for pending navigations...
+[1768442303.820][INFO]: Done waiting for pending navigations. Status: ok
+[1768442303.827][INFO]: Waiting for pending navigations...
+[1768442303.828][INFO]: Done waiting for pending navigations. Status: ok
+[1768442303.828][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442304.841][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442304.841][INFO]: Waiting for pending navigations...
+[1768442304.842][INFO]: Done waiting for pending navigations. Status: ok
+[1768442304.847][INFO]: Waiting for pending navigations...
+[1768442304.847][INFO]: Done waiting for pending navigations. Status: ok
+[1768442304.847][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442305.858][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442305.858][INFO]: Waiting for pending navigations...
+[1768442305.859][INFO]: Done waiting for pending navigations. Status: ok
+[1768442305.868][INFO]: Waiting for pending navigations...
+[1768442305.869][INFO]: Done waiting for pending navigations. Status: ok
+[1768442305.869][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442306.888][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442306.888][INFO]: Waiting for pending navigations...
+[1768442306.891][INFO]: Done waiting for pending navigations. Status: ok
+[1768442306.902][INFO]: Waiting for pending navigations...
+[1768442306.903][INFO]: Done waiting for pending navigations. Status: ok
+[1768442306.903][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442307.925][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442307.925][INFO]: Waiting for pending navigations...
+[1768442307.927][INFO]: Done waiting for pending navigations. Status: ok
+[1768442307.940][INFO]: Waiting for pending navigations...
+[1768442307.941][INFO]: Done waiting for pending navigations. Status: ok
+[1768442307.941][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442308.950][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442308.950][INFO]: Waiting for pending navigations...
+[1768442308.953][INFO]: Done waiting for pending navigations. Status: ok
+[1768442308.981][INFO]: Waiting for pending navigations...
+[1768442308.983][INFO]: Done waiting for pending navigations. Status: ok
+[1768442308.983][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442309.996][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442309.996][INFO]: Waiting for pending navigations...
+[1768442309.997][INFO]: Done waiting for pending navigations. Status: ok
+[1768442310.001][INFO]: Waiting for pending navigations...
+[1768442310.002][INFO]: Done waiting for pending navigations. Status: ok
+[1768442310.002][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442311.017][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442311.017][INFO]: Waiting for pending navigations...
+[1768442311.019][INFO]: Done waiting for pending navigations. Status: ok
+[1768442311.027][INFO]: Waiting for pending navigations...
+[1768442311.027][INFO]: Done waiting for pending navigations. Status: ok
+[1768442311.027][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442312.041][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442312.041][INFO]: Waiting for pending navigations...
+[1768442312.042][INFO]: Done waiting for pending navigations. Status: ok
+[1768442312.045][INFO]: Waiting for pending navigations...
+[1768442312.046][INFO]: Done waiting for pending navigations. Status: ok
+[1768442312.046][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442313.054][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442313.054][INFO]: Waiting for pending navigations...
+[1768442313.056][INFO]: Done waiting for pending navigations. Status: ok
+[1768442313.061][INFO]: Waiting for pending navigations...
+[1768442313.062][INFO]: Done waiting for pending navigations. Status: ok
+[1768442313.062][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442314.080][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442314.080][INFO]: Waiting for pending navigations...
+[1768442314.082][INFO]: Done waiting for pending navigations. Status: ok
+[1768442314.093][INFO]: Waiting for pending navigations...
+[1768442314.093][INFO]: Done waiting for pending navigations. Status: ok
+[1768442314.093][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442315.103][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442315.103][INFO]: Waiting for pending navigations...
+[1768442315.105][INFO]: Done waiting for pending navigations. Status: ok
+[1768442315.113][INFO]: Waiting for pending navigations...
+[1768442315.113][INFO]: Done waiting for pending navigations. Status: ok
+[1768442315.113][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442316.126][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442316.126][INFO]: Waiting for pending navigations...
+[1768442316.127][INFO]: Done waiting for pending navigations. Status: ok
+[1768442316.136][INFO]: Waiting for pending navigations...
+[1768442316.136][INFO]: Done waiting for pending navigations. Status: ok
+[1768442316.136][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442317.149][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442317.149][INFO]: Waiting for pending navigations...
+[1768442317.151][INFO]: Done waiting for pending navigations. Status: ok
+[1768442317.161][INFO]: Waiting for pending navigations...
+[1768442317.162][INFO]: Done waiting for pending navigations. Status: ok
+[1768442317.163][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442318.174][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442318.174][INFO]: Waiting for pending navigations...
+[1768442318.176][INFO]: Done waiting for pending navigations. Status: ok
+[1768442318.185][INFO]: Waiting for pending navigations...
+[1768442318.185][INFO]: Done waiting for pending navigations. Status: ok
+[1768442318.185][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442319.197][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442319.197][INFO]: Waiting for pending navigations...
+[1768442319.198][INFO]: Done waiting for pending navigations. Status: ok
+[1768442319.202][INFO]: Waiting for pending navigations...
+[1768442319.202][INFO]: Done waiting for pending navigations. Status: ok
+[1768442319.202][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]
+[1768442320.223][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//th[text()='BOWLING']/ancestor::table/tbody"
+}
+[1768442320.223][INFO]: Waiting for pending navigations...
+[1768442320.224][INFO]: Done waiting for pending navigations. Status: ok
+[1768442320.231][INFO]: Waiting for pending navigations...
+[1768442320.232][INFO]: Done waiting for pending navigations. Status: ok
+[1768442320.232][INFO]: [0b1f5a11063f9c6f25c9c20405d943ff] RESPONSE FindElements [  ]

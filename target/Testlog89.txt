@@ -1,0 +1,131 @@
+[1763684993.296][INFO]: Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 37068
+[1763684993.296][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1763684993.299][INFO]: ChromeDriver was started successfully on port 37068
+[1763684993.419][INFO]: [502218046d73455c2ac3f3c001cf15e1] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         }
+      } ]
+   }
+}
+[1763684993.420][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1763684993.420][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1763684993.421][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1763684993.421][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1763684993.422][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-features=IgnoreDuplicateNavs,Prewarm --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\bharg\AppData\Local\Temp\scoped_dir38056_422822748" data:,
+[1763684993.934][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1763684993.940][INFO]: [502218046d73455c2ac3f3c001cf15e1] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "142.0.7444.164",
+      "chrome": {
+         "chromedriverVersion": "142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749})",
+         "userDataDir": "C:\\Users\\bharg\\AppData\\Local\\Temp\\scoped_dir38056_422822748"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63686"
+      },
+      "goog:processID": 44060,
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "~~~": "..."
+   },
+   "sessionId": "502218046d73455c2ac3f3c001cf15e1"
+}
+[1763684994.110][INFO]: [502218046d73455c2ac3f3c001cf15e1] COMMAND Navigate {
+   "url": "https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_disabled"
+}
+[1763684994.110][INFO]: Waiting for pending navigations...
+[1763684994.113][INFO]: Done waiting for pending navigations. Status: ok
+[1763684995.046][INFO]: Waiting for pending navigations...
+[1763685014.321][INFO]: [502218046d73455c2ac3f3c001cf15e1] RESPONSE Navigate
+[1763685014.336][INFO]: [502218046d73455c2ac3f3c001cf15e1] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='iframeResult'],iframe[name='iframeResult']"
+}
+[1763685014.336][INFO]: [502218046d73455c2ac3f3c001cf15e1] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.164)
