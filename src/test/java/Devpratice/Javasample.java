@@ -7,7 +7,7 @@ public class Javasample {
 		System.out.println("Bhargava Hamsala");
 		System.out.println("welcome Vasavi");
 		System.out.println("Bhargava Hamsala");
-		System.out.println("welcome Vasavi");
+		System.out.println("welcome Vasavi to Java");
 	}
 
 }
