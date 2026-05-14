@@ -1,9 +1,9 @@
-Feature: Title ttd of your feature
+Feature: Title ttd 
 
   Scenario Outline: verify Title of your ttd page
-    Given I open "<bn>" browser
-    When I launch google site
-    Then I should see "Google" titled page
+    Given open browser
+    When enter "trump" in serach box
+    Then 
     When I should see "<word>" page title
     And I hit ENTRY Key
     Then I should see "<word>" in the header of results page
